@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Hero{
+    height: 600px;
+    /* border: 2px solid red; */
+    background-image: url(/Images/ilyuza-mingazova-1pXMWXoDhik-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* padding: 20px;
+    justify-content: space-between; */
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    /* border: 2px solid green; */
+    padding-top: 25px;
+}
+
+.centerNav{
+    /* border: solid green; */
+    padding-top: 25px;
+
+}
+
+
+.centerNav a{
+    padding-left: 50px;
+}
+.centerNav a:hover{
+    color: orange;
+}
+
+.navEnd{
+    /* border: 2px solid green; */
+    padding-top: 25px;
+}
+.active{
+    color: orange;
+}
+.navEnd{
+    padding-top: 25px;
+}

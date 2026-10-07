@@ -1,0 +1,27 @@
+
+.img{
+    background-image: url(/Images/heike-mintel-4vzfUNqi7h4-unsplash.jpg); height: 600px; width: 100%; background-size: cover; background-repeat: no-repeat;
+}
+#ima2{
+    background-image: url(/dark\ guy\ 2.jpg); height: 500px; width: 100%;
+    background-size: cover;
+}
+#ima3{
+    background-image: url(/Images/businessman-talking-phone.jpg); height: 600px; width: 100%;
+    background-size: cover; 
+}
+h1{
+    color: brown; text-align: center; text-decoration-line: underline; background-color: rgb(133 125 100); padding: 50px 0px 50px 0px; border: 30px solid;
+    
+}
+
+
+h2{
+    color: brown; text-align: center; text-decoration: underline; padding: 50px 0px 50px 0px;background-color: rgb(133 125 100); border: 30px solid;
+    
+}
+
+h3{
+    color: brown; text-align: center; text-decoration-line: underline; text-shadow: black; background-color: rgb(133 125 100); padding: 50px 0px 50px 0px; border: 30px solid;
+    
+}

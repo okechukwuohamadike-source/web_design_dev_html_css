@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    /* height: 100px;
+    width: 150px; */
+    padding: 50px 100px;
+    background-color: purple;
+    border: 2px solid black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+/* Flex properties for container */
+
+#con{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* column-gap: 20px;
+    row-gap: 20px;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+}
+
+/* flex properties for individual flex items */
+/* .Boxb2 {
+    flex-grow: 2;
+}
+
+.Boxb5{
+ flex-shrink: 7;
+}
+
+.Boxb2{
+    order: 1;
+} */
+
+.Boxb1{
+    order: 3;
+}
+
+/* Layout Demo Styling */
+
+.layout main{
+    display: flex;
+    gap: 6px;
+}
+
+header{
+    height: 100px;
+    background-color: coral;
+}
+
+nav{
+    height: 100px;
+    background-color: cyan;
+}
+main{
+    height: 500px;
+    display: flex;
+    /* border: 2px solid fuchsia; */
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(108, 108, 175);
+}
+section, aside, article {
+    height: 100%;
+    width: 33%;
+    background-color: coral;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header, footer, nav{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
